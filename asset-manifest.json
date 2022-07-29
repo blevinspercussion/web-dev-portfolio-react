@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/web-dev-portfolio-react/static/css/main.059c32ef.css",
-    "main.js": "/web-dev-portfolio-react/static/js/main.670a1420.js",
-    "static/media/memory-card.png": "/web-dev-portfolio-react/static/media/memory-card.b3abfd9f6b55930ad922.png",
-    "static/media/Screenshot from 2022-07-17 15-44-53.png": "/web-dev-portfolio-react/static/media/Screenshot from 2022-07-17 15-44-53.49087b32e313985a1d57.png",
-    "static/media/snare-drum-store.png": "/web-dev-portfolio-react/static/media/snare-drum-store.2a0750eccc66e8a47f86.png",
-    "static/media/e-commerce-main-page.png": "/web-dev-portfolio-react/static/media/e-commerce-main-page.7cf1f74e52e9cdd21a52.png",
-    "static/media/home-page-with-dropdowns.png": "/web-dev-portfolio-react/static/media/home-page-with-dropdowns.f2b69161ab91d9eb00ab.png",
-    "static/media/cobra-kai.jpg": "/web-dev-portfolio-react/static/media/cobra-kai.6531bfa08427deb0407c.jpg",
-    "static/media/time-tracking-dashboard.png": "/web-dev-portfolio-react/static/media/time-tracking-dashboard.7445dabdbe6ceb300bfd.png",
-    "static/media/adambcodeslogo.png": "/web-dev-portfolio-react/static/media/adambcodeslogo.0b6b4edb96a143edca27.png",
-    "index.html": "/web-dev-portfolio-react/index.html",
-    "main.059c32ef.css.map": "/web-dev-portfolio-react/static/css/main.059c32ef.css.map",
-    "main.670a1420.js.map": "/web-dev-portfolio-react/static/js/main.670a1420.js.map"
+    "main.css": "/static/css/main.059c32ef.css",
+    "main.js": "/static/js/main.46d0168f.js",
+    "static/media/memory-card.png": "/static/media/memory-card.b3abfd9f6b55930ad922.png",
+    "static/media/Screenshot from 2022-07-17 15-44-53.png": "/static/media/Screenshot from 2022-07-17 15-44-53.49087b32e313985a1d57.png",
+    "static/media/snare-drum-store.png": "/static/media/snare-drum-store.2a0750eccc66e8a47f86.png",
+    "static/media/e-commerce-main-page.png": "/static/media/e-commerce-main-page.7cf1f74e52e9cdd21a52.png",
+    "static/media/home-page-with-dropdowns.png": "/static/media/home-page-with-dropdowns.f2b69161ab91d9eb00ab.png",
+    "static/media/cobra-kai.jpg": "/static/media/cobra-kai.6531bfa08427deb0407c.jpg",
+    "static/media/time-tracking-dashboard.png": "/static/media/time-tracking-dashboard.7445dabdbe6ceb300bfd.png",
+    "static/media/adambcodeslogo.png": "/static/media/adambcodeslogo.0b6b4edb96a143edca27.png",
+    "index.html": "/index.html",
+    "main.059c32ef.css.map": "/static/css/main.059c32ef.css.map",
+    "main.46d0168f.js.map": "/static/js/main.46d0168f.js.map"
   },
   "entrypoints": [
     "static/css/main.059c32ef.css",
-    "static/js/main.670a1420.js"
+    "static/js/main.46d0168f.js"
   ]
 }
