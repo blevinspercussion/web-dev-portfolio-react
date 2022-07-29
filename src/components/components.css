@@ -10,7 +10,7 @@
     align-items: flex-start;
     justify-content: center;
     margin: 2rem 0 0 0;
-    max-width: 75vw;
+    width: 75vw;
     margin-left: 10vw;
 }
   
@@ -81,4 +81,61 @@
 
 .footer {
     padding: 5rem;
+}
+
+@media screen and (max-width: 640px) {
+
+    body {
+        width: 50vw;
+        overflow-x: hidden;
+    }
+
+    .App {
+        flex-direction: column;
+        width: 50vw;
+        font-size: 7px;
+    }
+
+    .mobile {
+        display: block;
+        width: 100vw;
+    }
+
+    .nav-menu {
+        display: none;
+        visibility: hidden;
+    }
+
+    .about-section {
+        flex-direction: column;
+        max-width: 100vw;
+    }
+
+    .about-text-content {
+        max-width: 25vw;
+        margin: 0px;
+    }
+
+    .profile-pic {
+        max-height: 25vh;
+    }
+
+    .projects {
+        max-width: 50vw;
+        flex-direction: column;
+    }
+
+    .project-cards {
+        max-width: 35vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .project-card {
+        max-width: 50vw;
+    }
+
+    .project-image {
+        max-width: 25vw;
+    }
 }

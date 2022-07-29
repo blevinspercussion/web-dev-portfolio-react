@@ -21,6 +21,10 @@
   /* min-height: 110vh; */
 }
 
+.mobile {
+  display: none;
+}
+
 body {
 
 }
