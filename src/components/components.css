@@ -33,3 +33,35 @@
     text-decoration-color: var(--lighter-blue);
     transition: 0.5s;
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0 10rem 0;
+}
+
+.project-card {
+
+}
+
+.project-image {
+    max-height: 25vh;
+    border-radius: 10%;
+}
+
+.project-card-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project-card-links a {
+    text-decoration: none;
+    color: white;
+}
