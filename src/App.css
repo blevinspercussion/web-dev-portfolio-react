@@ -1,38 +1,65 @@
+:root {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 15px;
+
+  --darkest-blue: #0C0032;
+  --dark-blue: #190061;
+  --blue: #240090;
+  --lighter-blue: #3500D3;
+  --dark-gray: #282828;
+}
+
 .App {
+  font-family: 'Source Code Pro', monospace;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  max-width: 100vw;
+  overflow: hidden;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+hr {
+  border: 1px solid var(--blue);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 1rem 3rem 2rem 2rem;
+  margin-bottom: -2rem;
+
+}
+
+.logo {
+  margin-right: auto;
+  width: 8rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-pic {
+  max-height: 55vh;
+  border-radius: 15%;
 }
