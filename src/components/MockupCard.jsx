@@ -3,11 +3,11 @@ import AboutProject from './AboutProject';
 
 import { useState } from 'react';
 
-function ProjectCard ({ item, title, image, codeUrl, demoUrl, about, aboutProject, setAboutProject}) {
+function MockupCard ({ item, title, image, codeUrl, demoUrl, about, aboutMockup, setAboutMockup}) {
     
     const handleAboutClick = () => {
-        setAboutProject(null);
-        setAboutProject(about);
+        setAboutMockup(null);
+        setAboutMockup(about);
     }
 
     return (
@@ -19,12 +19,9 @@ function ProjectCard ({ item, title, image, codeUrl, demoUrl, about, aboutProjec
                 <a className='link' href={demoUrl} target='_blank'>live demo</a>
                 <a className='link' onClick={handleAboutClick}>about</a>
             </div>
-            {/* {aboutProject === about && 
-                <AboutProject about={about} />
-                } */}
         </div>
     )
 }
 
 
-export default ProjectCard;
+export default MockupCard;

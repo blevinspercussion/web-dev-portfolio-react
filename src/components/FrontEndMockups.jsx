@@ -1,7 +1,13 @@
 import './components.css';
-import ProjectCard from './ProjectCard';
+import MockupCard from './MockupCard';
+import AboutProject from './AboutProject';
+
+import { useState } from 'react';
 
 function FrontEndMockups ({ frontEndMockups }) {
+
+    const [aboutMockup, setAboutMockup] = useState(null);
+
     return (
         <div className='projects'>
             <h2>Front End Mockups</h2>
@@ -13,17 +19,24 @@ function FrontEndMockups ({ frontEndMockups }) {
             </h4>
             <div className='project-cards'>
                 {frontEndMockups.map((item, index) => (
-                    <ProjectCard 
+                    <MockupCard 
                         key={item.id}
                         item={item}
                         title={item.title}
                         image={item.image}
                         codeUrl = {item.codeUrl}
                         demoUrl = {item.demoUrl}
-                        about = {item.about}                
+                        about = {item.about}
+                        aboutMockup={aboutMockup}
+                        setAboutMockup={setAboutMockup}              
                     />
                 ))}
             </div>
+            {aboutMockup && 
+                <div className='about-project'>
+                    <p>{aboutMockup}</p>
+                </div>
+            }
         </div>
     )
 }

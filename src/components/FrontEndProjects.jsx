@@ -26,6 +26,11 @@ function FrontEndProjects ({ frontEndProjects }) {
                     />
                 ))}
             </div>
+            {aboutProject && 
+                <div className='about-project'>
+                    <p>{aboutProject}</p>
+                </div>
+            }
         </div>
     )
 }
