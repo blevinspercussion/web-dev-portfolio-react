@@ -15,7 +15,7 @@ function FrontEndMockups ({ frontEndMockups }) {
                 The mockups in this section were created from reference images that were provided by frontendmentor.com.
             </h4>
             <h4>
-                All assets and images were provided by frontendmentor.com, but all code and implementation is my own.
+                All assets and images were provided by frontendmentor.com, but all code and implementation are my own.
             </h4>
             <div className='project-cards'>
                 {frontEndMockups.map((item, index) => (

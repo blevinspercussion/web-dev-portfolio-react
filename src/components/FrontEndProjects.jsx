@@ -3,12 +3,12 @@ import ProjectCard from './ProjectCard';
 
 import { useState } from 'react';
 
-function FrontEndProjects ({ frontEndProjects }) {
+function FrontEndProjects ({ frontEndProjects, projectsRef }) {
 
     const [aboutProject, setAboutProject] = useState(null);
 
     return (
-        <div className='projects'>
+        <div className='projects' ref={projectsRef}>
             <h2>Front End Projects</h2>
             <h4>All projects in this section were created entirely by me, from conception to completion.</h4>
             <div className='project-cards'>

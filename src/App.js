@@ -5,6 +5,8 @@ import FrontEndProjects from './components/FrontEndProjects';
 import FrontEndMockups from './components/FrontEndMockups';
 import Footer from './components/Footer';
 
+import { useRef } from 'react';
+
 function App() {
 
   // Props 
@@ -44,8 +46,8 @@ function App() {
       'id': 'project-card-personal-website',
       'codeUrl': null,
       'demoUrl': 'https://blevinspercussion.com/',
-      'about': `This is my professional website for my career as a professional musician. I strive for simple, clean designs with well-presented and easy-to-
-                find information. This website serves to drive leads for performing gigs as well as students and other teaching opportunities.`,
+      'about': `This is my professional website for my career as a professional musician. I strive for simple, clean designs with well-presented and easy-to-find 
+                information. This website serves to drive leads for performing gigs as well as students and other teaching opportunities.`,
   },
   ]
 
@@ -92,15 +94,18 @@ function App() {
   ]
 
 
+  const aboutRef = useRef(null);
+  const projectsRef = useRef(null);
+
   return (
     <div className="App">
       <div className='overlay'>
       </div>
-      <Header />
+      <Header aboutRef={aboutRef} projectsRef={projectsRef} />
       <hr />
-      <About />
+      <About aboutRef={aboutRef} />
       <hr />
-      <FrontEndProjects frontEndProjects={frontEndProjects} />
+      <FrontEndProjects frontEndProjects={frontEndProjects} projectsRef={projectsRef} />
       <hr />
       <FrontEndMockups frontEndMockups={frontEndMockups} />
       <hr />

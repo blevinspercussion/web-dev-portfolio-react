@@ -1,9 +1,9 @@
 import './components.css';
 import profilePic from './img/cobra-kai.jpg';
 
-function About () {
+function About ({ aboutRef }) {
     return (
-        <div id='about-section' className='about-section'>
+        <div id='about-section' className='about-section' ref={aboutRef}>
             <div className='about-text-content'>
                 <h1>Welcome!</h1>
                 <h3>My name is Adam and I am a front end web developer.</h3>
