@@ -12,7 +12,7 @@ function About ({ aboutRef }) {
                     programming for several years now, and I have more recently began focusing on front-end web development. 
                     For the last 11 years I have worked as a professional musician and music teacher, and that career has 
                     given me invaluable soft skills that I plan on using in a new career in the tech field. I am a self-starter, 
-                    I am highly drive to succeed, and I am ready and eager to learn.
+                    I am highly driven to succeed, and I am ready and eager to learn.
                 </p>
                 <p>
                     As far as my tech skills, I currently have the following experience: Python (5+ years), HTML (5+ years), 
