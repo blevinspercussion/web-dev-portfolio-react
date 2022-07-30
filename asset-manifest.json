@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.059c32ef.css",
-    "main.js": "/static/js/main.46d0168f.js",
+    "main.css": "/static/css/main.0de79023.css",
+    "main.js": "/static/js/main.5b9e4032.js",
     "static/media/memory-card.png": "/static/media/memory-card.b3abfd9f6b55930ad922.png",
     "static/media/Screenshot from 2022-07-17 15-44-53.png": "/static/media/Screenshot from 2022-07-17 15-44-53.49087b32e313985a1d57.png",
     "static/media/snare-drum-store.png": "/static/media/snare-drum-store.2a0750eccc66e8a47f86.png",
@@ -11,11 +11,11 @@
     "static/media/time-tracking-dashboard.png": "/static/media/time-tracking-dashboard.7445dabdbe6ceb300bfd.png",
     "static/media/adambcodeslogo.png": "/static/media/adambcodeslogo.0b6b4edb96a143edca27.png",
     "index.html": "/index.html",
-    "main.059c32ef.css.map": "/static/css/main.059c32ef.css.map",
-    "main.46d0168f.js.map": "/static/js/main.46d0168f.js.map"
+    "main.0de79023.css.map": "/static/css/main.0de79023.css.map",
+    "main.5b9e4032.js.map": "/static/js/main.5b9e4032.js.map"
   },
   "entrypoints": [
-    "static/css/main.059c32ef.css",
-    "static/js/main.46d0168f.js"
+    "static/css/main.0de79023.css",
+    "static/js/main.5b9e4032.js"
   ]
 }
