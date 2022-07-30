@@ -3,6 +3,7 @@ import Header from './components/Header';
 import About from './components/About';
 import FrontEndProjects from './components/FrontEndProjects';
 import FrontEndMockups from './components/FrontEndMockups';
+import Links from './components/Links';
 import Footer from './components/Footer';
 
 import { useRef } from 'react';
@@ -96,18 +97,21 @@ function App() {
 
   const aboutRef = useRef(null);
   const projectsRef = useRef(null);
+  const linksRef = useRef(null);
 
   return (
     <div className="App">
       <div className='overlay'>
       </div>
-      <Header aboutRef={aboutRef} projectsRef={projectsRef} />
+      <Header aboutRef={aboutRef} projectsRef={projectsRef} linksRef={linksRef} />
       <hr />
       <About aboutRef={aboutRef} />
       <hr />
       <FrontEndProjects frontEndProjects={frontEndProjects} projectsRef={projectsRef} />
       <hr />
       <FrontEndMockups frontEndMockups={frontEndMockups} />
+      <hr />
+      <Links linksRef={linksRef} />
       <hr />
       <Footer />
     </div>

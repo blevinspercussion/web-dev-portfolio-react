@@ -1,19 +1,19 @@
 import './components.css';
 import logo from './img/adambcodeslogo.png';
 
-function Header ({ aboutRef, projectsRef }) {
+function Header ({ aboutRef, projectsRef, linksRef }) {
 
 
 
     return (
         <div>
-            <nav class="nav">
-            <img class="logo" src={logo} />
+            <nav className="nav">
+            <img className="logo" src={logo} />
                 <ul className='nav-menu'>
-                    <i class="fa-solid fa-bars mobile"></i>
-                    <li class="link section-link active-link" id="about-link" href='#about-section'><a onClick={() => aboutRef.current.scrollIntoView()}>about</a></li>
-                    <li class="link section-link" id="projects-link" href='.projects'><a onClick={() => projectsRef.current.scrollIntoView()}>projects</a></li>
-                    <li class="link section-link" id="links-link"><a>links</a></li>
+                    <i className="fa-solid fa-bars mobile"></i>
+                    <li className="link section-link active-link" id="about-link" href='#about-section'><a onClick={() => aboutRef.current.scrollIntoView()}>about</a></li>
+                    <li className="link section-link" id="projects-link" href='.projects'><a onClick={() => projectsRef.current.scrollIntoView()}>projects</a></li>
+                    <li className="link section-link" id="links-link"><a onClick={() => linksRef.current.scrollIntoView()}>links</a></li>
                 </ul>
             </nav>
         </div>
